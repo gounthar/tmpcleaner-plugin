@@ -1,0 +1,24 @@
+diff --git a/pom.xml b/pom.xml
+index 4d6d2ba..5df1077 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -4,7 +4,8 @@
+   <parent>
+     <groupId>org.jenkins-ci.plugins</groupId>
+     <artifactId>plugin</artifactId>
+-    <version>2.17</version>
++    <version>4.51</version>
++    <relativePath/>
+   </parent>
+ 
+   <artifactId>tmpcleaner</artifactId>
+@@ -15,8 +16,7 @@
+   <url>http://wiki.jenkins-ci.org/display/JENKINS/Tmp+Cleaner+Plugin</url>
+ 
+   <properties>
+-    <jenkins.version>1.596</jenkins.version>
+-    <java.level>6</java.level>
++    <jenkins.version>2.346.3</jenkins.version>
+   </properties>
+ 
+   <scm>
